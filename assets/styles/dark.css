@@ -4,7 +4,7 @@ html {
     color: #ffffff
 }   
 
-    #title-paragraph {
+    header {
         text-align: center;
         background-color: #000000;
         border: none;
@@ -15,6 +15,7 @@ html {
         text-align: center;
         /* Potem się ułoży w jedenj lini, znacznika nie pamiętam */
         border: 0.5px solid #6c6c6c;
+        margin: auto;
     }
 
         h2 {
