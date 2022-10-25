@@ -1,21 +1,29 @@
 html {
-    background-color: #000000
-}
-    h1 {
-        font-style: normal;
-        color: #ffffff
+    background-color: #000000;
+    font-style: normal;
+    color: #ffffff
+}   
+
+    #title-paragraph {
+        text-align: center;
+        background-color: #000000;
+        border: none;
+    }   
+
+    div {
+        background-color: #141414;
+        text-align: center;
+        /* Potem się ułoży w jedenj lini, znacznika nie pamiętam */
+        border: 0.5px solid #6c6c6c;
     }
 
-    h2 {
-        font-style: normal;
-        color: #ffffff
-    }
-
-        h3 {
+        h2 {
             font-style: normal;
-            color: #ffffff
-        }
-            p {
+        }   
+
+            h3 {
                 font-style: normal;
-                color: #ffffff
             }
+                p {
+                    font-style: normal;
+                }
