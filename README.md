@@ -7,3 +7,5 @@ I jak baron cukierkowy kiedyś napisał, "I tyle wam musi na razie wystarczyć, 
 Jaki kolwiek problem to pisać byle nie dwonić.
 
 Informacje o przedwsięwzięciu na [serwerze](https://discord.gg/A9rNQdJgZZ).
+
+***Ja się uczę robić takie inicjatywy dopiero***
