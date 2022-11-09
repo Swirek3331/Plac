@@ -12,6 +12,7 @@ body {
 
     main {
         display: flex;
+        background-image: url(https://swirek3331.github.io/Plac/assets/images/temporary-image-by-pawel-lipski.png);
     }
 
         .LinkBox {
@@ -20,7 +21,7 @@ body {
             /* Potem się ułoży w jedenj lini, znacznika nie pamiętam */
             border: 0.5px solid #6c6c6c;
             margin: none;
-            padding: none;
+            padding: 2%;
             flex: 1;
         }
 
