@@ -2,10 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-color: #000000;
+    text-align: center;
 }   
 
     header {
-        text-align: center;
         font-style: normal;
         border: none;
     }
@@ -16,21 +16,9 @@ body {
 
         .LinkBox {
             background-color: #141414;
-            text-align: center;
             /* Potem się ułoży w jedenj lini, znacznika nie pamiętam */
             border: 0.5px solid #6c6c6c;
             margin: none;
             padding: 2%;
             flex: 1;
         }
-
-            h2 {
-                font-style: normal;
-            }
-
-                h3 {
-                    font-style: normal;
-                }
-                    p {
-                        font-style: normal;
-                    }
