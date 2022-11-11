@@ -23,22 +23,22 @@ body {
             flex: 1;
         }
         
-            .LinkBox a:link {
+            a:link {
                 color: #ffffff;
                 text-decoration: none;
             }
 
-            .LinkBox a:hover {
+            a:hover {
                 color: #ffffff;
                 text-decoration: underline;
             }
 
-            .LinkBox a:active {
+            a:active {
                 color: #ffffff;
                 text-decoration: underline;
             }
 
-            .LinkBox a:visited {
+            a:visited {
                 color: #ffffff;
                 text-decoration: none;
             }
