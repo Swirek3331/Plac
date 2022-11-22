@@ -16,10 +16,10 @@ body {
 
         .LinkBox {
             background-color: #141414;
-            /* Potem się ułoży w jedenj lini, znacznika nie pamiętam */
             border: 0.5px solid #6c6c6c;
             margin: none;
             padding: 2%;
+            align-items: center;
             flex: 1;
         }
         
