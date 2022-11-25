@@ -10,11 +10,11 @@ body {
         border: none;
     }
 
-    nav {
+    nav.LinkBox {
         display: flex;
     }   
 
-        nav a {
+        nav.LinkBox a {
             flex: 1;
         }
 
