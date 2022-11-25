@@ -11,6 +11,11 @@ body {
         border: none;
     }
 
+    #HeaderNav {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
     nav {
         margin-bottom: 1.5%;
         padding-top: 2.5%;
@@ -42,6 +47,7 @@ body {
             border: 0.5px solid #6c6c6c;
             margin-top: 0.5%;
             padding: 2%;
+            flex: none;
         }
         
             a:link {
