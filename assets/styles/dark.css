@@ -12,6 +12,7 @@ body {
 
     nav.LinkBox {
         display: flex;
+        text-align: center;
     }   
 
         nav.LinkBox a {
@@ -23,6 +24,15 @@ body {
     }
 
         .LinkBox {
+            background-color: #141414;
+            border: 0.5px solid #6c6c6c;
+            margin: none;
+            padding: 2%;
+            align-items: center;
+            flex: 1;
+        }
+
+        div {
             background-color: #141414;
             border: 0.5px solid #6c6c6c;
             margin: none;
