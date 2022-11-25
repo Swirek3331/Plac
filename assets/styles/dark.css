@@ -10,6 +10,14 @@ body {
         border: none;
     }
 
+    nav {
+        display: flex;
+    }   
+
+        nav a {
+            flex: 1;
+        }
+
     main {
         display: flex;
     }
