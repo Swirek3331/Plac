@@ -10,6 +10,10 @@ body {
         border: none;
     }
 
+    nav {
+        margin-bottom: 1.5%;
+    }
+
     nav.LinkBox {
         display: flex;
         text-align: center;
@@ -26,8 +30,6 @@ body {
         .LinkBox {
             background-color: #141414;
             border: 0.5px solid #6c6c6c;
-            margin: none;
-            padding: 2%;
             align-items: center;
             flex: 1;
         }
@@ -35,10 +37,8 @@ body {
         div {
             background-color: #141414;
             border: 0.5px solid #6c6c6c;
-            margin: none;
+            margin-top: 0.5%;
             padding: 2%;
-            align-items: center;
-            flex: 1;
         }
         
             a:link {
@@ -59,4 +59,8 @@ body {
             a:visited {
                 color: #ffffff;
                 text-decoration: none;
+            }
+
+            p {
+                text-indent: 0.25%;
             }
