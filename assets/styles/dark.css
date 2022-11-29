@@ -48,7 +48,6 @@ body {
             margin-top: 0.5%;
             padding: 2%;
             flex: none;
-            text-align: justify;
         }
         
             a:link {
@@ -73,6 +72,10 @@ body {
 
             p {
                 text-indent: 0.25%;
+            }
+
+            div p {
+                text-align: justify;
             }
 
             footer.Flex div {
