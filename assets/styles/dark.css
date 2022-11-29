@@ -74,6 +74,10 @@ body {
                 text-indent: 0.25%;
             }
 
+            div p {
+                text-align: justify;
+            }
+
             footer.Flex div {
                 flex: 1;
                 align-items: center;
