@@ -74,6 +74,10 @@ body {
                 text-indent: 0.25%;
             }
 
+            #CentreParagraph {
+                text-align: justify;
+            }
+
             div p {
                 text-align: justify;
             }
