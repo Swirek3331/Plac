@@ -42,6 +42,10 @@ body {
             flex: 1;
         }
 
+        .LinkBox #centreAlign {
+            text-align: center;
+        }
+
         div {
             background-color: #141414;
             border: 0.5px solid #6c6c6c;
