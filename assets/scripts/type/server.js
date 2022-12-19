@@ -17,5 +17,3 @@ class Server
 }
 
 module.exports = Server;
-
-//teraz się zaczołem zastaniawiać, a może ts?
