@@ -42,10 +42,6 @@ body {
             flex: 1;
         }
 
-        .centreAlign {
-            text-align: center;
-        }
-
         div {
             background-color: #141414;
             border: 0.5px solid #6c6c6c;
@@ -54,9 +50,18 @@ body {
             flex: none;
         }
 
-        .PartnershipBox {
+        div.PartnershipBox {
             display: flex;
             padding: 2.5%;
+        }   
+
+        div.PartnershipBox article {
+            margin-left: 5%;
+        }
+
+        div.PartnershipBox img {
+            width: 10%;
+            height: 10%;
         }
         
             a:link {
@@ -83,8 +88,8 @@ body {
                 text-indent: 0.25%;
             }
 
-            #CentreParagraph {
-                text-align: justify;
+            div.LinkBox p {
+                text-align: center;
             }
 
             div p {
