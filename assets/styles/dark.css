@@ -42,7 +42,7 @@ body {
             flex: 1;
         }
 
-        .LinkBox #centreAlign {
+        .centreAlign {
             text-align: center;
         }
 
@@ -52,6 +52,11 @@ body {
             margin-top: 0.5%;
             padding: 2%;
             flex: none;
+        }
+
+        .PartnershipBox {
+            display: flex;
+            padding: 2.5%;
         }
         
             a:link {
