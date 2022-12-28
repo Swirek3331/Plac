@@ -59,6 +59,9 @@ body {
             margin-left: 5%;
         }
 
+        div.PartnershipBox img {
+            height: 100%;
+        }
         
             a:link {
                 color: #ffffff;
