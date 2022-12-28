@@ -60,8 +60,7 @@ body {
         }
 
         div.PartnershipBox img {
-            width: 10%;
-            height: 10%;
+            size: 100px;
         }
         
             a:link {
