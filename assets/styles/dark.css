@@ -67,7 +67,7 @@ body {
             text-indent: 0%;
         }
 
-        div.PartnershipBox img {
+        div.PartnershipBox figure {
             flex: 1; /*Nie wiem jak to działa dokońca */
         }
         

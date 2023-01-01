@@ -21,12 +21,6 @@
             <h1>Sekcja: Partnership</h1>
             <p>Zasób serwerowy</p>
         </header>
-        <script link="https://swirek3331.github.io/Plac/assets/script">
-            //Tu będzie wywołąnie funkcji
-            //I
-            //O kurwa, tak też można komentarze robić?
-            //Czy to tylko dla skryptów?
-        </script>
         <nav class="LinkBox">
             <a href="https://swirek3331.github.io/Plac/assets/pages/about.html">About</a>
 
@@ -34,22 +28,15 @@
 
             <a href="https://swirek3331.github.io/Plac/assets/pages/activity.html">Activity</a>
         </nav>
-        <!--Będzie puki co robione manualnie-->
-        <!--Albo i nie-->
-        <div class="PartnershipBox">
-            <figure>
-                <img src="https://swirek3331.github.io/Plac/assets/images/icons/servers/plac.png" alt="Placu Ikona"/>
-            </figure>
-            <article>
-                <h3>
-                    Plac
-                </h3>
-                <p>
-                    Serwer do którego strona się odnosi. <br/>
-                    Włodarz: <b>[PL][KT][ZPGM]Swirek3331#0611</b><br/>
-                </p>
-            </article>
-        </div>
+        <script link="https://swirek3331.github.io/Plac/assets/script">
+            //test
+
+            $("main").add("div.PartnershipBox");
+            $("div.PartnershipBox").html(`<img src="${plac.img}>"`);
+            $("div.PartnershipBox").html(`<article><h3><a link="${plac.invateLink}">${plac.name}<h3><p>${plac.description}<br/>${plac.owner}<br/>Członków: ${plac.mebers}<p></article>`);
+
+            //trzeba to do funkcji skompresować.
+        </script>
     </main>
 </body>
 </html>
