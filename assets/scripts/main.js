@@ -1,0 +1,1 @@
+//Pytanie czy to jQuerry tu zadziała.
