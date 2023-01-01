@@ -53,10 +53,16 @@ body {
         div.PartnershipBox {
             display: flex;
             padding: 2.5%;
+            padding-inline: 5%;
+            text-align: center;
         }   
 
         div.PartnershipBox article {
-            margin-left: 5%;
+            flex: 1;
+        }
+
+        div.PartnershipBox img {
+            flex: 1; /*Nie wiem jak to działa dokońca */
         }
         
             a:link {
