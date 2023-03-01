@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-size: 21px;
+}
+
+header {
+    display: flex
+    /* Grida się muszę nauczyć */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 15px;
+}
+
+a {
+    display: block;
+    border: solid 1px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+a:active {
+    background-color: #ffffff;
+    color: black;
+}
