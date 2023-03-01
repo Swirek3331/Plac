@@ -8,4 +8,4 @@ Jaki kolwiek problem to pisać byle nie dwonić.
 
 Informacje o przedwsięwzięciu na [serwerze](https://discord.gg/A9rNQdJgZZ).
 
-***Ja się uczę robić takie inicjatywy dopiero***
+**Obecnie jest całkowita restrukturyzacja**
