@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "TopBar TopBar TopBar"
+    "LeftBar Main Main"
+    "LeftBar Main Main";
+}
+
+div.TopBar {
+    grid-area: TopBar;
+}
+
+div.LeftBar {
+    grid-area: LeftBar;
+}
+
+main {
+    grid-area: Main;
+}
