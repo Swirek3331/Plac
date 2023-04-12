@@ -1,8 +1,3 @@
-/*
- *  Klasy: CamelCase
- * ID: snake_case, 
- */
-
 :root {
     --dark1: #000000;
     --dark2: #111;
@@ -19,11 +14,6 @@
 
 body {
     background-color: var(--dark1);
-    display: grid;
-    grid-template-areas: 
-    "TopBar TopBar TopBar"
-    "LeftBar Main Main"
-    "LeftBar Main Main";
 }
 
 div.TopBar {
@@ -32,12 +22,6 @@ div.TopBar {
     background-color: var(--dark2);
     height: calc(1 / 8 * 100vh);
     width: 100vw;
-    grid-area: TopBar;
-}
-
-div.NoGridy {
-    display: flex;
-    flex-direction: row;
 }
 
 div.LeftBar {
@@ -46,9 +30,4 @@ div.LeftBar {
     background-color: var(--dark3);
     height: calc(7 / 8 * 100vh);
     width: calc(1 / 8 * 100vw);
-    grid-area: LeftBar;
-}
-
-main {
-    grid-area: Main;
 }
