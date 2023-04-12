@@ -2,6 +2,11 @@
     --dark1: #000000;
     --dark2: #111;
     --dark3: #222;
+    --dark4: #333;
+
+    --light1: #ffffff;
+
+    --active1: #00ff00;
 }
 
 * {
@@ -19,6 +24,7 @@ body {
 div.TopBar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: var(--dark2);
     height: calc(1 / 8 * 100vh);
     width: 100vw;
@@ -31,3 +37,38 @@ div.LeftBar {
     height: calc(7 / 8 * 100vh);
     width: calc(1 / 8 * 100vw);
 }
+
+/* Nawigacja */
+    nav.Row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav.Row ul {
+        list-style-type: none;
+    }
+
+    nav.Row li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    nav.Row a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    nav.Row a:hover {
+        color: var(--active1);
+    }
+
+/* Galerija */
+
+    div.GalleryBox {
+        text-align: center;
+        background-color: var(--dark4);
+        border: solid 3px var(--light1);
+    }
