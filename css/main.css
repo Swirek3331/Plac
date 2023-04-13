@@ -59,17 +59,26 @@ main {
 
     nav.Row li {
         display: inline-block;
-        padding: 10px;
     }
 
     nav.Row a {
         text-decoration: none;
         color: white;
         display: block;
+        padding: 10px;
     }
 
     nav.Row a:hover {
         color: var(--active1);
+    }
+
+
+
+    nav.Column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
 /* Galerija */
