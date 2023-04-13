@@ -38,6 +38,13 @@ div.LeftBar {
     width: calc(1 / 8 * 100vw);
 }
 
+main {
+    width: calc(6 / 8 * 100vw);
+    height: calc(6 / 8 * 100vh);
+    margin: auto;
+    gap: 2.5px;
+}
+
 /* Nawigacja */
     nav.Row {
         display: flex;
