@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+    body {
+        grid-template-areas: 
+            "TopBar"
+            "LeftBar"
+            "Main";
+    }
+
+    div.TopBar {
+        grid-area: TopBar;
+        width: 100%;
+        height: calc(0.75 / 8 * 100vh);
+    }
+
+    div.LeftBar {
+        grid-area: LeftBar;
+        width: 100%;
+        height: calc(1 / 8 * 100vh);
+    }
+
+    main {
+        grid-area: Main;
+        width: 100%;
+        height: calc(6.25 / 8 * 100vh);
+        margin: auto;
+    }
+}
