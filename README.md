@@ -1,11 +1,6 @@
 # Plac
 
-Moja strona?
-Kiedyś skończę.
-I jak baron cukierkowy kiedyś napisał, "I tyle wam musi na razie wystarczyć, "kiedyś"".
+Kiedyś...
 
-Jaki kolwiek problem to pisać byle nie dwonić.
-
-Informacje o przedwsięwzięciu na [serwerze](https://discord.gg/A9rNQdJgZZ).
-
-**Obecnie jest całkowita restrukturyzacja**
+To nie ma być żadne pełnoprawna strona.
+Bardziej rzecz, która może działać tak jak ja bym chciał - *dla testów*.
